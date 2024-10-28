@@ -1,0 +1,11 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "bun --filter='*' dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/**"
+  ]
+}
